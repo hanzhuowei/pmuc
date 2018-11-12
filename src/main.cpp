@@ -29,7 +29,7 @@
 #include "converters/dummyreader.h"
 #include "converters/dslconverter.h"
 #include "api/rvmprimitive.h"
-#include "converters/ifcconverter.h"
+//#include "converters/ifcconverter.h"
 #include "converters/x3dconverter.h"
 #include "converters/colladaconverter.h"
 
@@ -208,17 +208,7 @@ int main(int argc, char** argv)
                         } break;
 #endif // OPENCOLLADASW_FOUND
 
-                        case IFC4: {
-                            string name = filename + ".ifc";
-                            reader = new IFCConverter(name, "IFC4");
-                        } break;
-
-                        case IFC2X3: {
-                            string name = filename + ".ifc";
-                            reader = new IFCConverter(name, "IFC2X3");
-                        } break;
-
-
+                        
                         case DSL: {
                             string name = filename + ".dsl3d";
                             reader = new DSLConverter(name);
@@ -357,15 +347,7 @@ int main(int argc, char** argv)
                         reader = new DSLConverter(dslname);
                     } break;
 
-                    case IFC2X3: {
-                        string ifcname = name + ".ifc";
-                        reader = new IFCConverter(ifcname, "IFC4");
-                    } break;
-                    case IFC4: {
-                        string ifcname = name + ".ifc";
-                        reader = new IFCConverter(ifcname, "IFC2X3");
-                    } break;
-                }
+                                    }
                 if (maxSideSize) {
                     reader->setMaxSideSize(maxSideSize);
                 }
@@ -428,19 +410,7 @@ int main(int argc, char** argv)
                             reader = new COLLADAConverter(name);
                         } break;
 
-                        case IFC4: {
-                            string name = !objectName.empty() ? objectName : filename;
-                            name = name.substr(0, name.rfind(".")) + ".ifc";
-                            name = name.substr(name.rfind(PATHSEP) + 1);
-                            reader = new IFCConverter(name, "IFC4");
-                        } break;
-                        case IFC2X3: {
-                            string name = !objectName.empty() ? objectName : filename;
-                            name = name.substr(0, name.rfind(".")) + ".ifc";
-                            name = name.substr(name.rfind(PATHSEP) + 1);
-                            reader = new IFCConverter(name, "IFC2X3");
-                        } break;
-
+                       
                         case DSL: {
                             string name = !objectName.empty() ? objectName : filename;
                             name = name.substr(0, name.rfind(".")) + ".dsl3d";
