@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D90E58E8-2537-31D7-B270-0E439E7B6AD0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>OpenCOLLADAFramework_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\Tool\pmuc\pmuc\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenCOLLADAFramework_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenCOLLADAFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\Tool\pmuc\pmuc\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenCOLLADAFramework_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenCOLLADAFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADAFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/Tool/pmuc/pmuc -BC:/Projects/Tool/pmuc/pmuc/build --check-stamp-file C:/Projects/Tool/pmuc/pmuc/build/external/OpenCOLLADA/COLLADAFramework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADAFramework/CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADAFramework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADAFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/Tool/pmuc/pmuc -BC:/Projects/Tool/pmuc/pmuc/build --check-stamp-file C:/Projects/Tool/pmuc/pmuc/build/external/OpenCOLLADA/COLLADAFramework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADAFramework/CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADAFramework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWLight.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWEffectCommon.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWInstanceKinematicsScene.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWRoot.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFormula.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWPrecompiledHeaders.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWCamera.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWTexture.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWRenderState.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWNode.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWKinematicsScene.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMorphController.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWRotate.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWImage.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWValidate.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWVisualScene.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWKinematicsModel.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWEffect.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMeshPrimitive.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWConstants.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWColor.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWUniqueId.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFormulas.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWTransformation.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSkinController.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMaterial.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSampler.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWScale.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFloatOrDoubleArray.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWGeometry.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWTranslate.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWAxisInfo.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWKinematicsController.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMatrix.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWLoaderUtils.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFileInfo.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSkinControllerData.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMesh.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSpline.cpp" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFW.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimatable.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimatableFloat.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimation.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimationCurve.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimationList.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnnotate.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWArray.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWArrayPrimitiveType.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAxisInfo.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWCamera.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWCode.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWColor.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWColorOrTexture.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWConstants.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWController.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWEdge.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWEffect.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWEffectCommon.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWException.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFileInfo.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFloatOrDoubleArray.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFloatOrParam.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFormula.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFormulaNewParam.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFormulas.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWGeometry.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWHashFunctions.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWILoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWIWriter.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWImage.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWImageSource.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInclude.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWIndexList.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceBase.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceBindingBase.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceCamera.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceController.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceGeometry.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceKinematicsScene.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceLight.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceNode.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceSceneGraph.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceVisualScene.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWJoint.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWJointPrimitive.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWKinematicsController.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWKinematicsModel.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWKinematicsScene.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLibraryNodes.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLight.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLines.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLinestrips.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLoaderUtils.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLookat.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMaterial.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMaterialBinding.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMatrix.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMesh.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMeshPrimitive.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMeshPrimitiveWithFaceVertexCount.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMeshVertexData.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWModifier.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMorphController.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMotionProfile.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWNewParam.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWNode.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWObject.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWParam.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPass.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPassClear.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPassOutput.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPassTarget.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPointerArray.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPolygons.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPrerequisites.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRenderDraw.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRenderState.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRenderStateStatic.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRoot.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRotate.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSampler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWScale.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWScene.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSemantic.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSetParam.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderBlinn.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderConstantFX.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderElement.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderLambert.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderPhong.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShear.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSkew.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSkinController.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSkinControllerData.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSpline.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWStableHeaders.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTarget.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTargetableValue.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTechnique.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTexture.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTextureCoordinateBinding.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTransformation.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTranslate.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTriangles.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTrifans.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTristrips.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTypes.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWUniqueId.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWValidate.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWValueType.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWVisualScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\ZERO_CHECK.vcxproj">
+      <Project>{095F06D8-C09F-3119-87D9-D2175942500F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\MathMLSolver\MathMLSolver_static.vcxproj">
+      <Project>{ACC533BF-F6D3-30A5-9750-5FFD723158C5}</Project>
+      <Name>MathMLSolver_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADABaseUtils\OpenCOLLADABaseUtils_static.vcxproj">
+      <Project>{6742E17F-3B4E-36C7-9F1A-6E1675000142}</Project>
+      <Name>OpenCOLLADABaseUtils_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\UTF\UTF_static.vcxproj">
+      <Project>{EA5FF154-C104-39C3-B6DA-74693313C380}</Project>
+      <Name>UTF_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\pcre\pcre_static.vcxproj">
+      <Project>{BE89CD39-91F7-3F69-8B1B-6CE44B805D49}</Project>
+      <Name>pcre_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

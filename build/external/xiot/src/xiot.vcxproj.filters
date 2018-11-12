@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DFIAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DDefaultNodeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DFILoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DDataTypeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DParseException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DFICompressionTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DParserVocabulary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DFIEncodingAlgorithms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DWriterFI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DFIEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DWriterXML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DXMLLoaderXercesImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\X3DXMLAttributesXercesImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DXMLLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DXMLAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DFIAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DNodeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DDefaultNodeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DFILoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DDataTypeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DParseException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DFICompressionTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DParserVocabulary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DFIEncodingAlgorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DFIEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DWriterFI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\X3DWriterXML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\include\xiot\XIOTConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Tool\pmuc\pmuc\external\xiot\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B28C1B05-B17F-3DD1-9C7B-5F3B7933C225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DAB2D8E5-C7B6-3DB3-B90B-5ED582280815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

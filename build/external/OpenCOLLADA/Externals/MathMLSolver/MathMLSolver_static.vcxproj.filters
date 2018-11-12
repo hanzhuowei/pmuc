@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\MathMLEvaluatorVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\MathMLSolverPrecompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\MathMLSymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTStringVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTUnaryArithmeticExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTBinaryComparisionExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTLogicExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTFragmentExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTFunctionExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTVariableExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTConstantExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\AST\MathMLASTArithmeticExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\MathMLSolverFunctionExtensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\MathMLSerializationVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\MathMLSerializationUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\src\MathMLString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTArithmeticExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTBinaryComparisionExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTConstantExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTFragmentExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTFunctionExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTLogicExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTStringVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTUnaryArithmeticExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTVariableExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST\MathMLASTVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLEvaluatorVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLParserConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLSerializationUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLSerializationVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLSolverFunctionExtensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLSolverPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLSolverStableHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLStreamParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLStreamParserHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\MathMLSymbolTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B28C1B05-B17F-3DD1-9C7B-5F3B7933C225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DAB2D8E5-C7B6-3DB3-B90B-5ED582280815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

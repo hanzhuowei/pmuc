@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWEffectCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWInstanceKinematicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWRoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFormula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWPrecompiledHeaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWRenderState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWKinematicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMorphController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWRotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWValidate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWVisualScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWKinematicsModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMeshPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWUniqueId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFormulas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWTransformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSkinController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWScale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFloatOrDoubleArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWTranslate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWAxisInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWKinematicsController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWLoaderUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWFileInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSkinControllerData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\src\COLLADAFWSpline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimatable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimatableFloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimationCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnimationList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAnnotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWArrayPrimitiveType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWAxisInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWColorOrTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWEffectCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFileInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFloatOrDoubleArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFloatOrParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFormula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFormulaNewParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWFormulas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWHashFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWILoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWIWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWImageSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWIndexList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceBindingBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceKinematicsScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceSceneGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWInstanceVisualScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWJointPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWKinematicsController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWKinematicsModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWKinematicsScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLibraryNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLinestrips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLoaderUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWLookat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMaterialBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMeshPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMeshPrimitiveWithFaceVertexCount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMeshVertexData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMorphController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWMotionProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWNewParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPassClear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPassOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPassTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPointerArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPolygons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRenderDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRenderStateStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWRotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWScale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSemantic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSetParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderBlinn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderConstantFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderLambert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShaderPhong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWShear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSkew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSkinController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSkinControllerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWSpline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWStableHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTargetableValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTechnique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTextureCoordinateBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTransformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTranslate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTriangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTrifans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTristrips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWUniqueId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWValidate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWValueType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include\COLLADAFWVisualScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B28C1B05-B17F-3DD1-9C7B-5F3B7933C225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DAB2D8E5-C7B6-3DB3-B90B-5ED582280815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

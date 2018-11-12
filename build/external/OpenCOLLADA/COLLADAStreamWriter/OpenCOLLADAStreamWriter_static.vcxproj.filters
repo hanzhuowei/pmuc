@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWTechniqueFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWStreamWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryImages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWControlVertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInstanceEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWBindMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWSurfaceInitOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInstanceNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInstanceCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWPrimitves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryLights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryGeometries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryAnimationClips.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWExtra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryMaterials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWBaseElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryEffects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWExtraTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWEffectProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWFormatHint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryControllers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWBaseInputElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInstanceMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWCameraOptic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWVertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInstanceController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryAnimations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWParamBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryVisualScenes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWAsset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibraryCameras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInstanceGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInstanceLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWRenderState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWInputList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWElementWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\src\COLLADASWConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWAnnotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWAsset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWBaseElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWBaseInputElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWBindMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWCameraOptic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWColorOrTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWControlVertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWEffectProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWElementWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWExtra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWExtraTechnique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWFormatHint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInputList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInstanceCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInstanceController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInstanceEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInstanceGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInstanceLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInstanceMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWInstanceNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryAnimationClips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryAnimations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryCameras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryControllers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryEffects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryGeometries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryImages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryLights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryMaterials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLibraryVisualScenes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWOpenGLConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWParamBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWParamTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWPrimitves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWRenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWRenderStateStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWStreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWSurfaceInitOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWTechnique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWTechniqueFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWValueType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\include\COLLADASWVertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAStreamWriter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B28C1B05-B17F-3DD1-9C7B-5F3B7933C225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DAB2D8E5-C7B6-3DB3-B90B-5ED582280815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

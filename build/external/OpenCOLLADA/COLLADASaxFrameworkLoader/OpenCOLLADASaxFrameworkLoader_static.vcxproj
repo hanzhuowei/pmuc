@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{12CFA408-5C8C-34E6-959A-AF84ECB1D1FB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>OpenCOLLADASaxFrameworkLoader_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\Tool\pmuc\pmuc\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenCOLLADASaxFrameworkLoader_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenCOLLADASaxFrameworkLoader</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\Tool\pmuc\pmuc\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenCOLLADASaxFrameworkLoader_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenCOLLADASaxFrameworkLoader</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\pcre\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\pcre\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\pcre\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\pcre\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\pcre\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\MathMLSolver\include\AST;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADAFramework\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\pcre\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADASaxFrameworkLoader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/Tool/pmuc/pmuc -BC:/Projects/Tool/pmuc/pmuc/build --check-stamp-file C:/Projects/Tool/pmuc/pmuc/build/external/OpenCOLLADA/COLLADASaxFrameworkLoader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADASaxFrameworkLoader/CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADASaxFrameworkLoader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADASaxFrameworkLoader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/Tool/pmuc/pmuc -BC:/Projects/Tool/pmuc/pmuc/build --check-stamp-file C:/Projects/Tool/pmuc/pmuc/build/external/OpenCOLLADA/COLLADASaxFrameworkLoader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/COLLADASaxFrameworkLoader/CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADASaxFrameworkLoader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryArticulatedSystemsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLCOLLADACsymbol.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryAnimationsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLIParserImpl14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLTransformationLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLInputUnshared.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLIFilePartLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLFilePartLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLGeometryMaterialIdInfo.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryControllersLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSaxParserError.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSaxFWLError.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSourceArrayLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryKinematicsScenesLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLExtraDataLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryLightsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryImagesLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLIParserImpl15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLJointsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLKinematicsIntermediateData.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLTypes.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLNodeLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLAssetLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLRootParser14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLKinematicsSceneCreator.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLIExtraDataCallbackHandler.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLMeshPrimitiveInputList.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLPrecompiledHeaders.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLInstanceKinematicsModelLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSaxParserErrorHandler.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryNodesLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLRootParser15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryCamerasLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLFormulasLinker.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryKinematicsModelsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryFormulasLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLPostProcessor.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLDocumentProcessor.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSceneLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLInstanceArticulatedSystemLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLFormulasLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryMaterialsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLFileLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLMeshLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLVersionParser.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLIError.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLIErrorHandler.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryEffectsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLLibraryJointsLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSidTreeNode.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSidAddress.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLVisualSceneLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLGeometryLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLExtraDataElementHandler.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\COLLADASaxFWLSplineLoader.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLSplineLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLColladaParserAutoGen14PrivateNameMap.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryNodesLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLGeometryLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLColladaParserAutoGen14PrivateFunctionMapFactory.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLColladaParserAutoGen14PrivateValidation.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLColladaParserAutoGen14PrivateEnums.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLColladaParserAutoGen14PrivateFunctionMap.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryMaterialsLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLColladaParserAutoGen14PrivateFindElementHash.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryAnimationsLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLSceneLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLAssetLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryEffectsLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLVisualSceneLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLSourceArrayLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLNodeLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryControllersLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLColladaParserAutoGen14Private.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryCamerasLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLMeshLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryImagesLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated14\COLLADASaxFWLLibraryLightsLoader14.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLNodeLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLColladaParserAutoGen15PrivateNameMap.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLMeshLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLSceneLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryArticulatedSystemsLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLColladaParserAutoGen15PrivateFindElementHash.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLColladaParserAutoGen15PrivateFunctionMapFactory.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryAnimationsLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryJointsLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryNodesLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLSourceArrayLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLColladaParserAutoGen15PrivateValidation.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryKinematicsModelsLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLVisualSceneLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryImagesLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryFormulasLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLColladaParserAutoGen15Private.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLFormulasLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryKinematicsScenesLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLColladaParserAutoGen15PrivateFunctionMap.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLGeometryLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLColladaParserAutoGen15PrivateEnums.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryLightsLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryEffectsLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLAssetLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryCamerasLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryMaterialsLoader15.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\src\generated15\COLLADASaxFWLLibraryControllersLoader15.cpp" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLAccessor.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLArrayElement.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLAssetLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLCOLLADACsymbol.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLDocumentProcessor.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLException.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLExtraDataElementHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLExtraDataLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLFileLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLFilePartLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLFormulasLinker.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLFormulasLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLGeometryLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLGeometryMaterialIdInfo.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLHelperLoaderBase.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIError.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIErrorHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIExtraDataCallbackHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIFilePartLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIParserImpl.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIParserImpl14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIParserImpl15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLInputShared.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLInputUnshared.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLInstanceArticulatedSystemLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLInstanceKinematicsModelLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLIntermediateTargetable.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLInterpolationTypeSource.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLJointsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLKinematicsIntermediateData.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLKinematicsSceneCreator.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryAnimationsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryArticulatedSystemsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryCamerasLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryControllersLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryEffectsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryFormulasLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryImagesLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryJointsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryKinematicsModelsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryKinematicsScenesLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryLightsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryMaterialsLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLibraryNodesLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLMeshLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLMeshPrimitiveInputList.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLNodeLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLPHElement.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLPolygons.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLPostProcessor.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLPrerequisites.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLPrimitiveBase.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLRootParser14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLRootParser15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSaxFWLError.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSaxParserError.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSaxParserErrorHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSceneLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSidAddress.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSidTreeNode.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSource.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSourceArrayLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLSplineLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLStableHeaders.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLTechniqueCommon.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLTransformationLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLTypes.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLUtils.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLVersionParser.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLVertices.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLVisualSceneLoader.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\COLLADASaxFWLXmlTypes.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLAssetLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLColladaParserAutoGen14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLColladaParserAutoGen14Attributes.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLColladaParserAutoGen14Enums.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLColladaParserAutoGen14FunctionMapFactory.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLColladaParserAutoGen14Private.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLColladaParserAutoGen14ValidationData.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLGeometryLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryAnimationsLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryCamerasLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryControllersLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryEffectsLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryImagesLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryLightsLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryMaterialsLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLLibraryNodesLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLMeshLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLNodeLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLSceneLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLSourceArrayLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLSplineLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated14\COLLADASaxFWLVisualSceneLoader14.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLAssetLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLColladaParserAutoGen15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLColladaParserAutoGen15Attributes.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLColladaParserAutoGen15Enums.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLColladaParserAutoGen15FunctionMapFactory.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLColladaParserAutoGen15Private.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLColladaParserAutoGen15ValidationData.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLFormulasLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLGeometryLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryAnimationsLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryArticulatedSystemsLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryCamerasLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryControllersLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryEffectsLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryFormulasLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryImagesLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryJointsLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryKinematicsModelsLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryKinematicsScenesLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryLightsLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryMaterialsLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLLibraryNodesLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLMeshLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLNodeLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLSceneLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLSourceArrayLoader15.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADASaxFrameworkLoader\include\generated15\COLLADASaxFWLVisualSceneLoader15.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\ZERO_CHECK.vcxproj">
+      <Project>{095F06D8-C09F-3119-87D9-D2175942500F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\GeneratedSaxParser\GeneratedSaxParser_static.vcxproj">
+      <Project>{0D645E7B-0068-3064-9C90-533CC2279237}</Project>
+      <Name>GeneratedSaxParser_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\MathMLSolver\MathMLSolver_static.vcxproj">
+      <Project>{ACC533BF-F6D3-30A5-9750-5FFD723158C5}</Project>
+      <Name>MathMLSolver_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADABaseUtils\OpenCOLLADABaseUtils_static.vcxproj">
+      <Project>{6742E17F-3B4E-36C7-9F1A-6E1675000142}</Project>
+      <Name>OpenCOLLADABaseUtils_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADAFramework\OpenCOLLADAFramework_static.vcxproj">
+      <Project>{D90E58E8-2537-31D7-B270-0E439E7B6AD0}</Project>
+      <Name>OpenCOLLADAFramework_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\UTF\UTF_static.vcxproj">
+      <Project>{EA5FF154-C104-39C3-B6DA-74693313C380}</Project>
+      <Name>UTF_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\pcre\pcre_static.vcxproj">
+      <Project>{BE89CD39-91F7-3F69-8B1B-6CE44B805D49}</Project>
+      <Name>pcre_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\LibXML\xml_static.vcxproj">
+      <Project>{FF811F3F-B1B9-3AC8-8606-9EDA03E51692}</Project>
+      <Name>xml_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

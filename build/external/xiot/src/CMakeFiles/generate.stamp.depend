@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/GenerateExportHeader.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/exportheader.cmake.in
+C:/Projects/Tool/pmuc/pmuc/external/xiot/CMakeModules/FindXercesC.cmake
+C:/Projects/Tool/pmuc/pmuc/external/xiot/src/CMakeLists.txt

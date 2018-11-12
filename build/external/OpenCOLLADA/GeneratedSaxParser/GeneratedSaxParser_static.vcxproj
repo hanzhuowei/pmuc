@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D645E7B-0068-3064-9C90-533CC2279237}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GeneratedSaxParser_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\Tool\pmuc\pmuc\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GeneratedSaxParser_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GeneratedSaxParser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\Tool\pmuc\pmuc\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GeneratedSaxParser_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GeneratedSaxParser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GENERATEDSAXPARSER_XMLPARSER_LIBXML;XMLPARSER_LIBXML;PCRE_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\Externals\LibXML\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\COLLADABaseUtils\include\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/GeneratedSaxParser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/Tool/pmuc/pmuc -BC:/Projects/Tool/pmuc/pmuc/build --check-stamp-file C:/Projects/Tool/pmuc/pmuc/build/external/OpenCOLLADA/GeneratedSaxParser/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/GeneratedSaxParser/CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\GeneratedSaxParser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/GeneratedSaxParser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/Tool/pmuc/pmuc -BC:/Projects/Tool/pmuc/pmuc/build --check-stamp-file C:/Projects/Tool/pmuc/pmuc/build/external/OpenCOLLADA/GeneratedSaxParser/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/GeneratedSaxParser/CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\CMakeLists.txt;C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\GeneratedSaxParser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserCoutErrorHandler.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserNamespaceStack.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserParser.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserParserError.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserParserTemplateBase.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserParserTemplate.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserRawUnknownElementHandler.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserSaxParser.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserStackMemoryManager.cpp" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserUtils.cpp" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParser.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserCoutErrorHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserExpatSaxParser.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserIErrorHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserINamespaceHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserIUnknownElementHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserLibxmlSaxParser.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserNamespaceStack.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserParser.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserParserError.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserParserTemplate.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserParserTemplateBase.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserPrerequisites.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserRawUnknownElementHandler.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserSaxParser.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserStackMemoryManager.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserTypes.h" />
+    <ClInclude Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\include\GeneratedSaxParserUtils.h" />
+    <ClCompile Include="C:\Projects\Tool\pmuc\pmuc\external\OpenCOLLADA\GeneratedSaxParser\src\GeneratedSaxParserLibxmlSaxParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\ZERO_CHECK.vcxproj">
+      <Project>{095F06D8-C09F-3119-87D9-D2175942500F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\COLLADABaseUtils\OpenCOLLADABaseUtils_static.vcxproj">
+      <Project>{6742E17F-3B4E-36C7-9F1A-6E1675000142}</Project>
+      <Name>OpenCOLLADABaseUtils_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\UTF\UTF_static.vcxproj">
+      <Project>{EA5FF154-C104-39C3-B6DA-74693313C380}</Project>
+      <Name>UTF_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\pcre\pcre_static.vcxproj">
+      <Project>{BE89CD39-91F7-3F69-8B1B-6CE44B805D49}</Project>
+      <Name>pcre_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\Tool\pmuc\pmuc\build\external\OpenCOLLADA\Externals\LibXML\xml_static.vcxproj">
+      <Project>{FF811F3F-B1B9-3AC8-8606-9EDA03E51692}</Project>
+      <Name>xml_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

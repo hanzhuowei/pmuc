@@ -1,0 +1,156 @@
+Start testing: Nov 12 16:48 China Standard Time
+----------------------------------------------------------
+1/4 Testing: run_pmuc
+1/4 Test: run_pmuc
+Command: "C:/Projects/Tool/pmuc/pmuc/build/bin/Release/pmuc.exe" "--help"
+Directory: C:/Projects/Tool/pmuc/pmuc/build
+"run_pmuc" start time: Nov 12 16:48 China Standard Time
+Output:
+----------------------------------------------------------
+Plant Mock-Up Converter 1.1.1
+Copyright (C) EDF 2017
+
+usage: pmuc [options] <rvm file 1> ...
+
+Choose at least one format and one file to convert.
+Options:
+  --help, -h              Print usage and exit.
+  --x3d                   Convert to X3D XML format.
+  --x3db                  Convert to X3D binary format.
+  --collada               Convert to COLLADA format.
+  --ifc                   Convert to IFC2x3.
+  --ifc4                  Convert to IFC4.
+  --dsl                   Convert to DSL language.
+  --dummy                 Print out the file structure.
+  --skipattributes        Ignore attribute file.
+  --split                 If possible split in sub files (Only X3D).
+  --aggregate=<name>      Combine input files in one export file.
+  --primitives            If possible use native primitives.
+  --maxsidesize=<length>  Used for tesselation. Default 1000.
+  --minsides=<nb>         Used for tesselation. Default 8.
+  --test, -t              Outputs primitive samples for testing purposes.
+  --object=<name>         Extract only the named object.
+  --color=<index>         Force a PDMS color on all objects.
+  --scale=<multiplier>    Scale the model.
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[--collada
+]
+"run_pmuc" end time: Nov 12 16:48 China Standard Time
+"run_pmuc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: pmuc_collada
+2/4 Test: pmuc_collada
+Command: "C:/Projects/Tool/pmuc/pmuc/build/bin/Release/pmuc.exe" "--collada" "C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.rvm"
+Directory: C:/Projects/Tool/pmuc/pmuc/build
+"pmuc_collada" start time: Nov 12 16:48 China Standard Time
+Output:
+----------------------------------------------------------
+Plant Mock-Up Converter 1.1.1
+Copyright (C) EDF 2017
+
+Converting file C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.rvm to COLLADA...
+Found attribute companion file: C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.att
+Statistics:
+  315 group(s)
+  118 pyramid(s)
+  173 box(es)
+  74 rectangular torus(es)
+  38 circular torus(es)
+  2 elliptical dish(es)
+  0 spherical dish(es)
+  22 snout(s)
+  139 cylinder(s)
+  0 sphere(s)
+  12 line(s)
+  80 facet group(s)
+  7589 attribute(s)
+Conversion done in 0 second.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[  80 facet group
+]
+"pmuc_collada" end time: Nov 12 16:48 China Standard Time
+"pmuc_collada" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: pmuc_x3d
+3/4 Test: pmuc_x3d
+Command: "C:/Projects/Tool/pmuc/pmuc/build/bin/Release/pmuc.exe" "--x3d" "C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.rvm"
+Directory: C:/Projects/Tool/pmuc/pmuc/build
+"pmuc_x3d" start time: Nov 12 16:48 China Standard Time
+Output:
+----------------------------------------------------------
+Plant Mock-Up Converter 1.1.1
+Copyright (C) EDF 2017
+
+Converting file C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.rvm to X3D...
+Found attribute companion file: C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.att
+Statistics:
+  315 group(s)
+  118 pyramid(s)
+  173 box(es)
+  74 rectangular torus(es)
+  38 circular torus(es)
+  2 elliptical dish(es)
+  0 spherical dish(es)
+  22 snout(s)
+  139 cylinder(s)
+  0 sphere(s)
+  12 line(s)
+  80 facet group(s)
+  7589 attribute(s)
+Conversion done in 1 second.
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[  80 facet group
+]
+"pmuc_x3d" end time: Nov 12 16:48 China Standard Time
+"pmuc_x3d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: pmuc_x3db
+4/4 Test: pmuc_x3db
+Command: "C:/Projects/Tool/pmuc/pmuc/build/bin/Release/pmuc.exe" "--x3db" "C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.rvm"
+Directory: C:/Projects/Tool/pmuc/pmuc/build
+"pmuc_x3db" start time: Nov 12 16:48 China Standard Time
+Output:
+----------------------------------------------------------
+Plant Mock-Up Converter 1.1.1
+Copyright (C) EDF 2017
+
+Converting file C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.rvm to X3DB...
+Found attribute companion file: C:/Projects/Tool/pmuc/pmuc/data/plm-sample_11072013.att
+Statistics:
+  315 group(s)
+  118 pyramid(s)
+  173 box(es)
+  74 rectangular torus(es)
+  38 circular torus(es)
+  2 elliptical dish(es)
+  0 spherical dish(es)
+  22 snout(s)
+  139 cylinder(s)
+  0 sphere(s)
+  12 line(s)
+  80 facet group(s)
+  7589 attribute(s)
+Conversion done in 0 second.
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[  80 facet group
+]
+"pmuc_x3db" end time: Nov 12 16:48 China Standard Time
+"pmuc_x3db" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 12 16:48 China Standard Time

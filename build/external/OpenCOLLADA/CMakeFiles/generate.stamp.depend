@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindLibXml2.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/WriteBasicConfigVersionFile.cmake
+C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/CMakeLists.txt
+C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/Externals/cmake-modules/FindPCRE.cmake
+C:/Projects/Tool/pmuc/pmuc/external/OpenCOLLADA/OpenCOLLADAConfig.cmake.in
